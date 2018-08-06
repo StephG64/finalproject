@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(to top, #679289 0%, #335773 100%);;
+  font-family: "Lato", sans-serif;
+}
+h3 {
+  color: #f4c095;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h2 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size: 32px; font-variant: normal; font-weight: 200; line-height: 26.4px;text-align: left; color: #f4c095;
+ border
+}
+
+h1 {
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size: 46px; font-variant: normal; font-weight: 200; line-height: 26.4px;text-align: center; color: #f4c095;
+  border-bottom: color #335773;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #071e22;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f4c095;
+    display: block;
+    transition: 0.5s;
+    border-bottom: 2px solid #679289;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+img.books {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}

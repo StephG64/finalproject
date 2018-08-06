@@ -1,0 +1,137 @@
+#back {
+   background: linear-gradient(to top, #679289 0%, #335773 100%);
+}
+
+p {
+  background-color: #f4c9a4;
+}
+
+head {
+  background-image: url(ohio.png);
+}
+
+h1 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size: 50px; font-variant: normal; font-weight: 200; line-height: 26.4px;text-align: center; color: #f4c095;
+ border
+}
+
+h3 {
+  text-shadow: 0 0 3px #00ffff;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+div.gallery {
+    border: 5px solid #1D7874;
+
+}
+
+div.gallery:hover {
+    border: 5px solid #f4c095;
+
+}
+
+div.gallery img {
+    width: 200px;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    font-style: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #071e22;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f4c095;
+    display: block;
+    transition: 0.5s;
+    border-bottom: 2px solid #679289;
+    position: sticky;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: block;
+}

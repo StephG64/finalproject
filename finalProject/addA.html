@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="library.js"></script>
+    <link rel="stylesheet" href="library.css">
+    <script>
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+  </script>
+  </head>
+  <body id="back">
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="homepage.html">Home</a>
+  <a href="#">Find/Near Me</a>
+  <a href="addA.html">Add A Library</a>
+  <a href="findalibrary.html">What's Trending?</a>
+  <a href="#">Why Should You Read?</a>
+  <a href="aboutUs.html">About Us</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<h2>Text field</h2>
+<p>The <strong>input type="text"</strong> defines a one-line text input field:</p>
+
+<form action="/action_page.php">
+First name:<br>
+<input type="text" name="firstname">
+<br>
+Last name:<br>
+<input type="text" name="lastname">
+<br><br>
+<input type="submit">
+</form>
+
+<p>Note that the form itself is not visible.</p>
+<p>Also note that the default width of a text field is 20 characters.</p>
+
+
+</head>
+<body>
+
+
+
+</body>
+</html>
